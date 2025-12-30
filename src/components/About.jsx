@@ -6,7 +6,10 @@ const About = () => {
           <div className="about-wrapper">
             <div className="about-left">
               <div className="about-img">
-                <img src="/profile2.jpeg" alt="" srcset="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}profile2.jpeg`}
+                  alt="Profile"
+                />
               </div>
             </div>
             <div className="about-right">

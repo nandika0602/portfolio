@@ -76,7 +76,9 @@ const Home = () => {
               <div className="btn">
                 {/* <button> */}
                 <a
-                  href="/Nandika_Devarajan_ReactJS_Resume.pdf"
+                  href={`${
+                    import.meta.env.BASE_URL
+                  }Nandika_Devarajan_ReactJS_Resume.pdf`}
                   download
                   className="btn"
                 >
@@ -87,7 +89,10 @@ const Home = () => {
             </div>
             <div className="right">
               <div className="profile">
-                <img src="/profile1.jpeg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}profile1.jpeg`}
+                  alt="Profile"
+                />
               </div>
             </div>
           </div>
