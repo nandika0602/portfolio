@@ -1,5 +1,6 @@
 import {
   faFacebook,
+  faGithub,
   faInstagram,
   faLinkedin,
   faTwitter,
@@ -14,7 +15,7 @@ const Home = () => {
 
   useEffect(() => {
     typedInstance.current = new Typed(el.current, {
-      strings: ["Front-End Developer", "Web Designer"],
+      strings: ["Front-End Developer"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -38,7 +39,7 @@ const Home = () => {
               </h4>
               <p>Working as a Frontend Developer...</p>
               <div className="social">
-                <a href="#">
+                {/* <a href="#">
                   <FontAwesomeIcon
                     icon={faInstagram}
                     className="fa-brands fa-instagram"
@@ -55,21 +56,38 @@ const Home = () => {
                     icon={faFacebook}
                     className="fa-brands fa-facebook-f"
                   />
-                </a>
-                <a href="#">
+                </a> */}
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/nandika-devarajan-7a709822b/"
+                >
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     className="fa-brands fa-linkedin-in"
                   />
                 </a>
+                <a target="_blank" href="https://github.com/nandika0602">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="fa-brands fa-linkedin-in"
+                  />
+                </a>
               </div>
               <div className="btn">
-                <button>Download CV</button>
+                {/* <button> */}
+                <a
+                  href="/Nandika_Devarajan_ReactJS_Resume.pdf"
+                  download
+                  className="btn"
+                >
+                  Download CV
+                </a>
+                {/* </button> */}
               </div>
             </div>
             <div className="right">
               <div className="profile">
-                <img src="images/profile.png" alt="" />
+                <img src="/profile1.jpeg" alt="" />
               </div>
             </div>
           </div>

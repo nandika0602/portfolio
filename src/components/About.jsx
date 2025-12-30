@@ -6,7 +6,7 @@ const About = () => {
           <div className="about-wrapper">
             <div className="about-left">
               <div className="about-img">
-                <img src="images/profile.png" alt="" srcset="" />
+                <img src="/profile2.jpeg" alt="" srcset="" />
               </div>
             </div>
             <div className="about-right">
@@ -17,12 +17,36 @@ const About = () => {
                 </h2>
                 <h3>Frontend Developer</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laudantium labore eius sequi explicabo beatae excepturi ex,
-                  nostrum tempore maxime, facere facilis quia aperiam nesciunt
-                  aspernatur sapiente velit, provident recusandae quae?
+                  I’m a passionate Frontend Developer with over 3 years of
+                  experience building scalable and high-performance web
+                  applications using ReactJS, JavaScript (ES6), HTML5, CSS3, and
+                  modern UI frameworks like Redux, Tailwind CSS, and
+                  Material-UI.
                 </p>
-                <button>Read More</button>
+                <p>
+                  I enjoy crafting clean, responsive interfaces that provide
+                  exceptional user experiences. My focus is on creating
+                  efficient, maintainable code with strong attention to design
+                  detail, performance, and usability.
+                </p>
+                <p>
+                  I’ve worked across travel and finance domains, developing B2B
+                  and B2C platforms, and collaborating closely with
+                  cross-functional teams to deliver products from concept to
+                  production.
+                </p>
+                <p>
+                  {" "}
+                  🔹 Tech Stack: ReactJS, Redux, Redux Toolkit, Tailwind CSS,
+                  Bootstrap, JavaScript (ES6), HTML5, CSS3, Git, REST API
+                  integration
+                </p>
+                <p>
+                  {" "}
+                  🔹 Strengths: Problem-solving, debugging, performance
+                  optimization, teamwork, and continuous learning
+                </p>
+                {/* <button>Read More</button> */}
               </div>
             </div>
           </div>
